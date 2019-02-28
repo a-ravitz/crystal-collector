@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <title>Crystal Collector</title>
+</head>
+<body>
+        <div id="banner"></div>
+        <div class="information">
+        <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+        <h1>Total Score: <span id="total-score"></span></h1>
+        </div>
+        <div id="wood"></div>
+        <div class="score">
+        <h1>Wins: <span id="wins"></span></h1>
+        <h1>Losses: <span id="losses"></span></h1>
+        </div>
+        <div id="crystals"></div>
+        <div class="howto">
+            <p>You will be given a random number at the start of the game.</p>
+
+            <p>there are four crystals below. By clicking on a crystal you will add a <br>
+                specific amount of points to your total score.</p> 
+
+            <p>You win the game by matching your total score to the random number, <br>
+                you lose the game if your total score goes about the random number.</p>
+
+            <p>The value of each crystal is hidden from you until you click on it</p> 
+
+            <p>Each round the crystal’s value changes!</p>
+        </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
