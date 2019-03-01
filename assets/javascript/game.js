@@ -65,10 +65,9 @@ $(document).ready(function () {
         $("#wins").text(wins);
         $("#losses").text(losses);
         $("#crystals").empty();
-        // crystalNumberFactory();
         crystalFactory();
         gameStart();
-    
+
 
     //onclick function to things with a class crystal-image         
     $(".crystal-image").on("click", function () {
@@ -83,20 +82,10 @@ $(document).ready(function () {
         if (counter === targetNumber) {
             wins++;
             resetGame()
-            // $("#wins").text(wins);
-            // $("#crystals").empty();
-            // crystalPower = [];
-            // crystalFactory();
-            // gameStart();
 
         } else if (counter >= targetNumber) {
             losses++;;
             resetGame()
-            // $("#losses").text();
-            // $("#crystals").empty();
-            // crystalPower = [];
-            // crystalFactory();
-            // gameStart();
         }
     });   
 
