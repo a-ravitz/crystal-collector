@@ -230,7 +230,55 @@ body {
   body {
     background-image: url("../images/space.jpg");
     background-size: 100%;
-}
+  }
+  .banner {
+    display: none;
+  }
+  .information{
+    color: white;
+    left: 20px;
+    top: 21px;
+  }
+  .howto {
+    left: 20px;
+    font-size: 15px;
+    top: 85px;
+  }
+  .score {
+    left: 20px;
+    top: 320px;
+    color: white;
+  }
+  .crystal1{
+    width: 80px;
+    height: 100px;
+    opacity: 1;
+    left: 20px;
+    top: 420px;
+    z-index: 2;
+  }
+  .crystal3 {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    top: 550px; 
+    left: 80px;
+  }
+  .crystal2 {
+    width: 100px;
+    height: 100px;
+    top: 420px; 
+    left: 120px;
+    opacity: 1;
+  }
+  
+  .crystal4 {
+    width: 100px;
+    height: 100px;
+    top: 550px; 
+    left: 200px;
+    opacity: 1;
+   }
 @media all and (max-width: 375px) {
 body {
   background-image: url("../images/space.jpg");
@@ -284,4 +332,5 @@ body {
   left: 200px;
   opacity: 1;
  }
+}
 }
