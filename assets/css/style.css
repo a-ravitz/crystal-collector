@@ -278,7 +278,7 @@ body {
     top: 550px; 
     left: 200px;
     opacity: 1;
-   }
+   }  
 @media all and (max-width: 375px) {
 body {
   background-image: url("../images/space.jpg");

@@ -68,7 +68,6 @@ $(document).ready(function () {
         crystalFactory();
         gameStart();
 
-
     //onclick function to things with a class crystal-image         
     $(".crystal-image").on("click", function () {
         var crystalValue = ($(this).attr("data-crystalvalue"));
@@ -76,16 +75,17 @@ $(document).ready(function () {
         counter += crystalValue;
         console.log(counter);
 
+  
         //score keeping 
         $("#total-score").text(counter);
 
         if (counter === targetNumber) {
             wins++;
             resetGame()
-
         } else if (counter >= targetNumber) {
             losses++;;
             resetGame()
+
         }
     });   
 
